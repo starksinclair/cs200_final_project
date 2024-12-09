@@ -65,10 +65,8 @@ End function
 ---
 
 ## How to Run
-1. Open the Twine project in your preferred browser.
-2. Click on the "Start" button to navigate to the Digital Fingerprint Simulation.
-3. Generate your digital fingerprint and explore the related educational content.
-
+1. Click on the link [https://starksinclair.github.io/cs200_final_project/](https://starksinclair.github.io/cs200_final_project/) to see the project
+   
 ---
 
 ## Attributions

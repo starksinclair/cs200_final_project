@@ -9,7 +9,15 @@
 		</style>
 	</head>
 	<body>
-       <audio src="https://github.com/starksinclair/cs200_final_project/blob/dbbdd6e6ac135a85ed2f067799525187e87b0252/assets/771869__josefpres__piano-loops-167-efect-2-octave-long-loop-120-bpm.wav" autoplay loop></audio>
+        <audio id="audio" src="/assets/771869__josefpres__piano-loops-167-efect-2-octave-long-loop-120-bpm.wav" autoplay loop></audio>
+<script>
+  window.onload = function() {
+    const audio = document.getElementById("audio");
+    audio.play();
+  }
+</script>
+
+       <!-- <audio src="./assets/771869__josefpres__piano-loops-167-efect-2-octave-long-loop-120-bpm.wav" autoplay loop ></audio> -->
 		<tw-story tags></tw-story>
 		<tw-storydata name="test" startnode="1" creator="Twine" creator-version="2.10.0" format="Snowman" format-version="2.0.2" ifid="5A36C727-CF1D-46DA-BE9E-2ABE9A4B8F79" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">* {
     margin: 0;

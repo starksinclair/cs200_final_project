@@ -9,6 +9,7 @@
 		</style>
 	</head>
 	<body>
+       <audio src="./771869__josefpres__piano-loops-167-efect-2-octave-long-loop-120-bpm.wav" autoplay loop></audio>
 		<tw-story tags></tw-story>
 		<tw-storydata name="test" startnode="1" creator="Twine" creator-version="2.10.0" format="Snowman" format-version="2.0.2" ifid="5A36C727-CF1D-46DA-BE9E-2ABE9A4B8F79" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">* {
     margin: 0;
@@ -407,7 +408,6 @@ button{
         transform: translateX(0);
     }
 }
-/* Conclusion specific styles */
 .conclusion {
     position: relative;
     overflow: hidden;
@@ -753,66 +753,9 @@ button{
         padding: 1rem;
     }
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">function goBack() {
-        if (window.historyStack.length > 1) {
-            window.historyStack.pop(); // Remove the current passage
-            var previousPassage = window.historyStack.pop(); // Get the previous passage
-            Engine.show(previousPassage); // Navigate to the previous passage
-        } else {
-            alert("No previous passage available!");
-        }
-    }
-async function captureFingerprint() {
-    const fp = await FingerprintJS.load();
-    const result = await fp.get();
-    
-    const trackingData = {
-        visitorId: result.visitorId,
-        timestamp: new Date().toISOString(),
-        browser: {
-            width: window.screen.width,
-            height: window.screen.height,
-            colorDepth: window.screen.colorDepth,
-            pixelRatio: window.devicePixelRatio,
-            availableScreenWidth: window.screen.availWidth,
-            availableScreenHeight: window.screen.availHeight
-        },
-        system: {
-            platform: navigator.platform,
-            language: navigator.language,
-            cookiesEnabled: navigator.cookieEnabled,
-            doNotTrack: navigator.doNotTrack
-        }
-    };
-
-    let overlay = document.getElementById('tracking-overlay');
-    overlay.innerHTML = `
-        <strong>Tracking Active</strong><br>
-        Visitor ID: ${trackingData.visitorId}<br>
-        Platform: ${trackingData.system.platform}
-    `;
-
-    console.log('Tracking Data:', trackingData);
-}
-
-function simulateCookieTracking() {
-    const mockCookies = [
-        { name: 'session_id', value: 'unique_session_token' },
-        { name: 'user_preferences', value: 'tracking_enabled' },
-        { name: 'ad_network_id', value: 'cross_site_tracker' }
-    ];
-
-    mockCookies.forEach(cookie => {
-        document.cookie = `${cookie.name}=${cookie.value}; path=/; SameSite=None; Secure`;
-    });
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    captureFingerprint();
-    simulateCookieTracking();
-});</script><tw-passagedata pid="1" name="Home" tags="" position="752,308" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Home" tags="" position="752,308" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
 &lt;title&gt;Home&lt;/title&gt;
-&lt;header&gt;Welcome to the Digital Privacy Hub&lt;/header&gt;
+&lt;header&gt;Welcome to the Digital Privacy Museum &lt;/header&gt;
 In this simulation, you&#39;ll navigate through various scenarios where your personal information may be at risk.
 &lt;main class=&quot;simulation-grid&quot;&gt;
     &lt;section class=&quot;simulation-card&quot;&gt;
@@ -848,7 +791,7 @@ In this simulation, you&#39;ll navigate through various scenarios where your per
         &lt;/div&gt;
     &lt;/section&gt;
 &lt;/main&gt;
-</tw-passagedata><tw-passagedata pid="2" name="Minimal Information" tags="" position="957.5,79" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="Full Profile" tags="" position="1438.5,83" size="100,100"></tw-passagedata><tw-passagedata pid="4" name="Connect Other Accounts" tags="" position="1209.5,142" size="100,100"></tw-passagedata><tw-passagedata pid="5" name="Continue" tags="" position="1320.5,107" size="100,100"></tw-passagedata><tw-passagedata pid="6" name="Understand Consequences" tags="" position="1341.5,276" size="100,100"></tw-passagedata><tw-passagedata pid="7" name="Begin Your Privacy Journey" tags="" position="1464,204" size="100,100"></tw-passagedata><tw-passagedata pid="8" name="x" tags="" position="1114,39" size="100,100"></tw-passagedata><tw-passagedata pid="9" name="Laws" tags="" position="585,469" size="100,100">[[Back|Home]]
+</tw-passagedata><tw-passagedata pid="2" name="Laws" tags="" position="585,469" size="100,100">[[Back|Home]]
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
   &lt;header class=&quot;section-header&quot;&gt;
              &lt;i class=&quot;fas fa-balance-scale&quot;&gt;&lt;/i&gt;
@@ -862,7 +805,7 @@ You recently received an email from a popular online store, stating that your pe
                 &lt;button class=&quot;start-button&quot;&gt;[[Contact the company to inquire about the breach]]&lt;/button&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[Change all your passwords, including those for the online store]]&lt;/button&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[File a complaint with a privacy authority]]&lt;/button&gt;
-            &lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="Account" tags="" position="927,456" size="100,100">[[Back|Home]]
+            &lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Account" tags="" position="927,456" size="100,100">[[Back|Home]]
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
     &lt;header class=&quot;section-header&quot;&gt;
              &lt;i class=&quot;fas fa-user-shield&quot;&gt;&lt;/i&gt;
@@ -882,7 +825,7 @@ You recently received an email from a popular online store, stating that your pe
                 &lt;button class=&quot;start-button&quot;&gt;[[Continue without connecting other accounts]]&lt;/button&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[Continue with Facebook]]&lt;/button&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[Continue with Google account]]&lt;/button&gt;
-            &lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Continue without connecting other accounts" tags="" position="1273,712" size="100,100">
+            &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Continue without connecting other accounts" tags="" position="1273,712" size="100,100">
 &lt;header id=&quot;header&quot;&gt;Minimal Data Provided&lt;/header&gt;
 &lt;div&gt;
 &lt;div class=&quot;scenario-box&quot;&gt;
@@ -899,7 +842,7 @@ You recently received an email from a popular online store, stating that your pe
    &lt;p class=&quot;back-btn&quot;&gt;[[Go Back|Account]]&lt;/p&gt;
     &lt;/section&gt;
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="12" name="Continue with Google account" tags="" position="1161,644" size="100,100">
+</tw-passagedata><tw-passagedata pid="5" name="Continue with Google account" tags="" position="1161,644" size="100,100">
 &lt;header id=&quot;header&quot;&gt;Google Login: Data and Privacy Risks&lt;/header&gt;
 &lt;div&gt;
 &lt;div class=&quot;scenario-box&quot;&gt;
@@ -919,7 +862,7 @@ You recently received an email from a popular online store, stating that your pe
        &lt;p class=&quot;back-btn&quot;&gt;[[Go Back|Account]]&lt;/p&gt;
     &lt;/section&gt;
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="13" name="Continue with Facebook" tags="" position="1277,610" size="100,100">
+</tw-passagedata><tw-passagedata pid="6" name="Continue with Facebook" tags="" position="1277,610" size="100,100">
 &lt;header id=&quot;header&quot;&gt;Facebook Login: Data and Privacy Risks&lt;/header&gt;
 &lt;div&gt;
 &lt;div class=&quot;scenario-box&quot;&gt;
@@ -939,7 +882,7 @@ You recently received an email from a popular online store, stating that your pe
        &lt;p class=&quot;back-btn&quot;&gt;[[Go Back|Account]]&lt;/p&gt;
     &lt;/section&gt;
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="14" name="Fingerprint" tags="" position="722.5,497" size="100,100">[[Back|Home]]
+</tw-passagedata><tw-passagedata pid="7" name="Fingerprint" tags="" position="722.5,497" size="100,100">[[Back|Home]]
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
 &lt;section class=&quot;fingerprint-section&quot;&gt;
     &lt;div class=&quot;content-wrapper&quot;&gt;
@@ -1004,7 +947,7 @@ You recently received an email from a popular online store, stating that your pe
             `;
         });
 } 
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="15" name="Contact the company to inquire about the breach" tags="" position="335,594" size="100,100">[[Go Back|Laws]]
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="8" name="Contact the company to inquire about the breach" tags="" position="335,594" size="100,100">[[Go Back|Laws]]
 
 &lt;section class=&quot;breach-info&quot;&gt;
     &lt;h2&gt;Data Breach Response&lt;/h2&gt;
@@ -1025,7 +968,7 @@ You recently received an email from a popular online store, stating that your pe
 
 &lt;div class=&quot;button-container&quot;&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[What will you do next?]]&lt;/button&gt;
-               &lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="Change all your passwords, including those for the online store" tags="" position="460,594" size="100,100">[[Go Back|Laws]]
+               &lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="Change all your passwords, including those for the online store" tags="" position="460,594" size="100,100">[[Go Back|Laws]]
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
 &lt;section class=&quot;security-action&quot;&gt;
     &lt;h2&gt;Security Response Actions&lt;/h2&gt;
@@ -1053,7 +996,7 @@ You recently received an email from a popular online store, stating that your pe
 &lt;div class=&quot;button-container&quot;&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[What will you do next?]](Next)&lt;/button&gt;
                &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="17" name="File a complaint with a privacy authority" tags="" position="585,594" size="100,100">[[Go Back|Laws]]
+</tw-passagedata><tw-passagedata pid="10" name="File a complaint with a privacy authority" tags="" position="585,594" size="100,100">[[Go Back|Laws]]
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
 
 &lt;section class=&quot;security-action&quot;&gt;
@@ -1082,7 +1025,7 @@ You recently received an email from a popular online store, stating that your pe
 &lt;div class=&quot;button-container&quot;&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[What will you do next?]](Next)&lt;/button&gt;
                &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="18" name="What will you do next?" tags="" position="438,775" size="100,100">[[Go Back|Laws]]
+</tw-passagedata><tw-passagedata pid="11" name="What will you do next?" tags="" position="438,775" size="100,100">[[Go Back|Laws]]
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
 &lt;section class=&quot;security-action&quot;&gt;
     &lt;h2&gt;Company Response &amp; Compensation&lt;/h2&gt;
@@ -1115,45 +1058,7 @@ You recently received an email from a popular online store, stating that your pe
 			&lt;button class=&quot;nav-btn&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://gdpr-info.eu/&quot;&gt;Learn more about data protection laws&lt;/a&gt;&lt;/button&gt;
             &lt;button class=&quot;nav-btn&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://oag.ca.gov/privacy/ccpa&quot;&gt;Learn more about California data protection laws&lt;/a&gt;&lt;/button&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[End]]&lt;/button&gt;
-               &lt;/div&gt;</tw-passagedata><tw-passagedata pid="19" name="Learn more about how data protection laws help you" tags="" position="674,29" size="100,100">&lt;a href=&quot;javascript:window.history.back()&quot;&gt;Go Back&lt;/a&gt;
-&lt;section class=&quot;security-action conclusion&quot;&gt;
-    &lt;h2&gt;Simulation Complete!&lt;/h2&gt;
-    
-    &lt;div class=&quot;action-box&quot;&gt;
-        &lt;div class=&quot;action-header&quot;&gt;
-            &lt;i class=&quot;fas fa-flag-checkered&quot;&gt;&lt;/i&gt;
-            &lt;h3&gt;Key Takeaways&lt;/h3&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;action-content&quot;&gt;
-            &lt;p class=&quot;action-description&quot;&gt;You&#39;ve completed the simulation! In real life, there are several key steps to take after a data breach:&lt;/p&gt;
-            &lt;ul class=&quot;key-steps-list&quot;&gt;
-                &lt;li&gt;
-                    &lt;i class=&quot;fas fa-comments&quot;&gt;&lt;/i&gt;
-                    &lt;span&gt;&lt;strong&gt;Contact the company&lt;/strong&gt; to understand what data was compromised and whether they are offering compensation.&lt;/span&gt;
-                &lt;/li&gt;
-                &lt;li&gt;
-                    &lt;i class=&quot;fas fa-key&quot;&gt;&lt;/i&gt;
-                    &lt;span&gt;&lt;strong&gt;Change all your passwords&lt;/strong&gt; and enable &lt;strong&gt;two-factor authentication&lt;/strong&gt; to secure your accounts.&lt;/span&gt;
-                &lt;/li&gt;
-                &lt;li&gt;
-                    &lt;i class=&quot;fas fa-gavel&quot;&gt;&lt;/i&gt;
-                    &lt;span&gt;&lt;strong&gt;File a complaint&lt;/strong&gt; with a privacy authority to hold the company accountable and ensure proper investigation and legal action.&lt;/span&gt;
-                &lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&quot;real-world-box thank-you&quot;&gt;
-        &lt;div class=&quot;real-world-header&quot;&gt;
-            &lt;i class=&quot;fas fa-award&quot;&gt;&lt;/i&gt;
-            &lt;h3&gt;Congratulations!&lt;/h3&gt;
-        &lt;/div&gt;
-        &lt;p&gt;Thank you for participating in the &lt;span class=&quot;highlight&quot;&gt;Real-Life Data Breach Simulation&lt;/span&gt;. Stay vigilant with your digital privacy and always be aware of your rights!&lt;/p&gt;
-    &lt;/div&gt;
-&lt;/section&gt;
-
-[[x]] (start)
-</tw-passagedata><tw-passagedata pid="20" name="End" tags="" position="506,994" size="100,100">[[Back|What will you do next?]]
+               &lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="End" tags="" position="506,994" size="100,100">[[Back|What will you do next?]]
 
 &lt;section class=&quot;security-action conclusion&quot;&gt;
     &lt;h2&gt;Simulation Complete!&lt;/h2&gt;
@@ -1193,7 +1098,7 @@ You recently received an email from a popular online store, stating that your pe
 
 &lt;div class=&quot;button-container&quot;&gt;
                 &lt;button class=&quot;start-button&quot;&gt;[[Home|Home]]&lt;/button&gt;
-               &lt;/div&gt;</tw-passagedata><tw-passagedata pid="21" name="Explanantion" tags="" position="812.5,27" size="100,100"></tw-passagedata><tw-passagedata pid="22" name="More about Fingerprint" tags="" position="847.5,622" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
+               &lt;/div&gt;</tw-passagedata><tw-passagedata pid="13" name="More about Fingerprint" tags="" position="847.5,622" size="100,100">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css&quot;&gt;
 &lt;section class=&quot;info-section&quot;&gt;
     &lt;header class=&quot;section-header&quot;&gt;
         &lt;i class=&quot;fas fa-info-circle&quot;&gt;&lt;/i&gt;

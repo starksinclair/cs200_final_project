@@ -1,0 +1,1216 @@
+:: StoryTitle
+test
+
+
+:: StoryData
+{
+  "ifid": "5A36C727-CF1D-46DA-BE9E-2ABE9A4B8F79",
+  "format": "Snowman",
+  "format-version": "2.0.2",
+  "start": "Home",
+  "zoom": 1
+}
+
+
+:: Account {"position":"927,456","size":"100,100"}
+[[Back|Home]]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <header class="section-header">
+             <i class="fas fa-user-shield"></i>
+            <h2>Account Creation Simulation</h2>
+        </header>
+<div class="scenario-box">
+ <p>You're creating a new social media account. The signup page asks for your:</p>
+            <ul class="key-steps-list">
+                <li>Full Name</li>
+                <li>Email Address</li>
+                <li>Phone Number</li>
+                <li>Date of Birth</li>
+                <li>Optional: Connect to other social accounts?</li>
+            </ul>
+</div>
+            <div class="button-container">
+                <button class="start-button">[[Continue without connecting other accounts]]</button>
+                <button class="start-button">[[Continue with Facebook]]</button>
+                <button class="start-button">[[Continue with Google account]]</button>
+            </div>
+
+
+:: Change all your passwords, including those for the online store {"position":"460,594","size":"100,100"}
+[[Go Back|Laws]]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<section class="security-action">
+    <h2>Security Response Actions</h2>
+    
+    <div class="action-box">
+        <div class="action-header">
+        	<i class="fas fa-key"></i>
+            <h3>Recommended Action:</h3>
+        </div>
+        <div class="action-content">
+            <p class="action-title">Change all your passwords, including those for the online store</p>
+            <p class="action-description">You change all your passwords, including the one for the online store where the breach occurred. You also enable two-factor authentication for added security on all your accounts.</p>
+        </div>
+    </div>
+    
+    <div class="real-world-box">
+        <div class="real-world-header">
+        	<i class="fas fa-info-circle"></i>
+            <h3>In real life:</h3>
+        </div>
+        <p>Changing your passwords and using <span class="highlight">two-factor authentication (2FA)</span> is an essential step after a data breach. This helps protect your accounts from unauthorized access. You should also monitor your accounts for any suspicious activity.</p>
+    </div>
+</section>
+
+<div class="button-container">
+                <button class="start-button">[[What will you do next?]](Next)</button>
+               </div>
+
+
+
+:: Contact the company to inquire about the breach {"position":"335,594","size":"100,100"}
+[[Go Back|Laws]]
+
+<section class="breach-info">
+    <h2>Data Breach Response</h2>
+    <div class="scenario-box">
+        <h3>Your Action:</h3>
+        <p>Contact the company to inquire about the breach</p>
+        
+        <h3>Company Response:</h3>
+        <p>You contact the company's support team and ask about the breach. They inform you that they are investigating the matter, but they cannot provide specific details yet. The company assures you that they are taking steps to protect your data.</p>
+    </div>
+    
+    <div class="real-life-info">
+        <h3>In real life:</h3>
+        <p>Under laws like the <span class="highlight">GDPR</span> and <span class="highlight">CCPA</span>, companies must notify affected users in a timely manner if their data is compromised. However, simply reaching out for more information may not guarantee immediate actions or compensation.</p>
+    </div>
+</section>
+
+
+<div class="button-container">
+                <button class="start-button">[[What will you do next?]]</button>
+               </div>
+
+
+:: Continue with Facebook {"position":"1277,610","size":"100,100"}
+
+<header id="header">Facebook Login: Data and Privacy Risks</header>
+<div>
+<div class="scenario-box">
+   <p>If you continue with Facebook login, the platform collects the following data:</p>
+<ul class="key-steps-list">
+    <li>Facebook Name (for personalization)</li>
+    <li>Email Address (for login and marketing)</li>
+    <li>Profile Picture (for display purposes)</li>
+    <li>Friends List (if granted permission)</li>
+    <li>Birthday (if granted permission)</li>
+    <li>Location (if linked to your Facebook account)</li>
+</ul>
+</div>
+<p class="text"><strong class="risk"> Your data may be shared with advertisers, used for profiling, or sold for targeted advertising.</strong></p>
+    <section class="btn-group">
+        <button class="nav-btn"><a target="_blank" href="https://www.facebook.com/about/privacy/update/printable">Learn more about your data</a></button>
+       <p class="back-btn">[[Go Back|Account]]</p>
+    </section>
+</div>
+
+
+
+:: Continue with Google account {"position":"1161,644","size":"100,100"}
+
+<header id="header">Google Login: Data and Privacy Risks</header>
+<div>
+<div class="scenario-box">
+    <p>If you continue with Google login, the platform collects the following data:</p>
+<ul class="key-steps-list">
+    <li>Google Account Name (for personalization)</li>
+    <li>Email Address (for login and marketing)</li>
+    <li>Profile Picture (for display purposes)</li>
+    <li>Google Contacts (if granted permission)</li>
+    <li>Google Calendar/Events (if granted permission)</li>
+    <li>Photos (if granted permission)</li>
+</ul>
+</div>
+<p class="text"><strong class="risk">Your data may be shared with third-party advertisers, used for profiling, or sold for targeted advertising.</strong> </p>
+    <section class="btn-group">
+        <button class="nav-btn"><a target="_blank" href="https://support.google.com/accounts/answer/14012355?hl=en#zippy=%2Chow-do-i-know-which-third-party-apps-have-access-to-my-google-account-data">Learn how to restrict or even remove third-party access</a></button>
+       <p class="back-btn">[[Go Back|Account]]</p>
+    </section>
+</div>
+
+
+
+:: Continue without connecting other accounts {"position":"1273,712","size":"100,100"}
+
+<header id="header">Minimal Data Provided</header>
+<div>
+<div class="scenario-box">
+    <p>You choose not to link other social media accounts, reducing data collection for privacy. However, the platform still collects:</p>
+<ul class="key-steps-list">
+    <li>Name (for personalization)</li>
+    <li>Email (for login and marketing)</li>
+    <li>Phone number (shared with advertisers)</li>
+    <li>Date of birth (for age verification and profiling)</li>
+</ul>
+</div>
+<p class="text"><strong class="risk">Your data may be sold to advertisers or used for profiling.</strong></p>
+    <section class="btn-group">
+   <p class="back-btn">[[Go Back|Account]]</p>
+    </section>
+</div>
+
+
+
+:: End {"position":"506,994","size":"100,100"}
+[[Back|What will you do next?]]
+
+<section class="security-action conclusion">
+    <h2>Simulation Complete!</h2>
+    
+    <div class="action-box">
+        <div class="action-header">
+            <i class="fas fa-flag-checkered"></i>
+            <h3>Key Takeaways</h3>
+        </div>
+        <div class="action-content">
+            <p class="action-description">You've completed the simulation! In real life, there are several key steps to take after a data breach:</p>
+            <ul class="key-steps-list">
+                <li>
+                    <i class="fas fa-comments"></i>
+                    <span><strong>Contact the company</strong> to understand what data was compromised and whether they are offering compensation.</span>
+                </li>
+                <li>
+                    <i class="fas fa-key"></i>
+                    <span><strong>Change all your passwords</strong> and enable <strong>two-factor authentication</strong> to secure your accounts.</span>
+                </li>
+                <li>
+                    <i class="fas fa-gavel"></i>
+                    <span><strong>File a complaint</strong> with a privacy authority to hold the company accountable and ensure proper investigation and legal action.</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="real-world-box thank-you">
+        <div class="real-world-header">
+            <i class="fas fa-award"></i>
+            <h3>Congratulations!</h3>
+        </div>
+        <p>Thank you for participating in the <span class="highlight">Real-Life Data Breach Simulation</span>. Stay vigilant with your digital privacy and always be aware of your rights!</p>
+    </div>
+</section>
+
+<div class="button-container">
+                <button class="start-button">[[Home|Home]]</button>
+               </div>
+
+
+:: File a complaint with a privacy authority {"position":"585,594","size":"100,100"}
+[[Go Back|Laws]]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<section class="security-action">
+    <h2>Legal Response Options</h2>
+    
+    <div class="action-box">
+        <div class="action-header">
+           <i class="fas fa-gavel"></i>
+            <h3>Recommended Action:</h3>
+        </div>
+        <div class="action-content">
+            <p class="action-title">File a complaint with a privacy authority</p>
+            <p class="action-description">You file a complaint with the <span class="highlight">Data Protection Authority</span> in your country, explaining the breach and your concerns about the company's handling of your data.</p>
+        </div>
+    </div>
+    
+    <div class="real-world-box">
+        <div class="real-world-header">
+          <i class="fas fa-info-circle"></i>
+            <h3>In real life:</h3>
+        </div>
+        <p>Filing a complaint with a regulatory body like the <span class="highlight">Information Commissioner's Office (ICO)</span> in the UK or the <span class="highlight">Federal Trade Commission (FTC)</span> in the U.S. can trigger an investigation into how the company managed the breach. If the company is found to have violated privacy laws, they may face significant fines and legal consequences.</p>
+    </div>
+</section>
+
+<div class="button-container">
+                <button class="start-button">[[What will you do next?]](Next)</button>
+               </div>
+
+
+
+:: Fingerprint {"position":"722.5,497","size":"100,100"}
+[[Back|Home]]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<section class="fingerprint-section">
+    <div class="content-wrapper">
+        <header class="section-header">
+            <i class="fas fa-fingerprint"></i>
+            <h2>Digital Fingerprint Simulation</h2>
+        </header>
+
+        <div class="info-box">
+            <p>Every device and online activity contributes to a unique identifier called a "digital fingerprint." Click the button below to generate yours.</p>
+            
+            <div class="fingerprint-container">
+                <button class="generate-btn" type="button" onclick="generateFingerprint()">
+                    <i class="fas fa-magic"></i>
+                    Generate My Digital Fingerprint
+                </button>
+                
+                <div class="fingerprint-result" id="fingerprintDisplay">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="button-container">
+    <button class="start-button">[[More about Fingerprint]]</button>
+    <button class="start-button"><a target="_blank" href="https://fingerprintjs.github.io/fingerprintjs">FingerprintJS Docs</a></button>
+</div>
+
+<script>
+   function generateFingerprint() {
+    const resultDisplay = document.getElementById('fingerprintDisplay');
+
+    
+    resultDisplay.innerHTML = '';
+
+    const fpPromise = import('https://openfpcdn.io/fingerprintjs/v4')
+        .then(FingerprintJS => FingerprintJS.load())
+    
+    fpPromise
+        .then(fp => fp.get())
+        .then(result => {
+            const visitorId = result.visitorId;
+          
+            console.log(result)
+            resultDisplay.innerHTML = `
+                <div>
+                    <div style="margin-bottom: 0.5rem;">Your Digital Fingerprint:</div>
+                    <div style="color: #2196F3; font-weight: bold;">${visitorId}</div>
+                    <div style="margin-top: 1rem; font-size: 0.9rem; color: #888;">
+                        Confidence Score: ${result.confidence.score}
+                    </div>
+                </div>
+            `;
+        })
+        .catch(error => {
+
+            resultDisplay.innerHTML = `
+                <div style="color: #ff4444;">
+                    Error generating fingerprint. Please try again.
+                </div>
+            `;
+        });
+} 
+</script>
+
+
+:: Home {"position":"752,308","size":"100,100"}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>Home</title>
+<header>Welcome to the Digital Privacy Hub</header>
+In this simulation, you'll navigate through various scenarios where your personal information may be at risk.
+<main class="simulation-grid">
+    <section class="simulation-card">
+        <div class="card-content">
+            <i class="fas fa-user-shield"></i>
+            <h2>[[Account Creation Simulation|Account]]</h2>
+            <button class="start-btn">
+                <i class="fas fa-play"></i>
+                [[Start|Account]]
+            </button>
+        </div>
+    </section>
+
+    <section class="simulation-card">
+        <div class="card-content">
+            <i class="fas fa-fingerprint"></i>
+            <h2>[[Digital Fingerprint Simulation|Fingerprint]]</h2>
+            <button class="start-btn">
+                <i class="fas fa-play"></i>
+                [[Start|Fingerprint]]
+            </button>
+        </div>
+    </section>
+
+    <section class="simulation-card">
+        <div class="card-content">
+            <i class="fas fa-balance-scale"></i>
+            <h2>[[Privacy Laws Simulation|Laws]]</h2>
+            <button class="start-btn">
+                <i class="fas fa-play"></i>
+                [[Start|Laws]]
+            </button>
+        </div>
+    </section>
+</main>
+
+
+
+:: Laws {"position":"585,469","size":"100,100"}
+[[Back|Home]]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <header class="section-header">
+             <i class="fas fa-balance-scale"></i>
+            <h2>Privacy Laws Simulation</h2>
+        </header>
+<div class="scenario-box">
+You recently received an email from a popular online store, stating that your personal data (including your name, email address, and credit card information) may have been compromised in a recent data breach. What will you do?
+</div>
+
+<div class="button-container">
+                <button class="start-button">[[Contact the company to inquire about the breach]]</button>
+                <button class="start-button">[[Change all your passwords, including those for the online store]]</button>
+                <button class="start-button">[[File a complaint with a privacy authority]]</button>
+            </div>
+
+
+:: More about Fingerprint {"position":"847.5,622","size":"100,100"}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<section class="info-section">
+    <header class="section-header">
+        <i class="fas fa-info-circle"></i>
+        <h2>Understanding Your Digital Fingerprint</h2>
+    </header>
+
+    <div class="info-content">
+        <div class="intro-text">
+            <p>
+                A digital fingerprint is a unique identifier created from the combination of your device settings, browser characteristics, IP address, and other details. 
+                It's like a <span class="highlight">"digital signature"</span> that websites and services use to recognize and track you online.
+            </p>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-card use-case">
+                <h3><i class="fas fa-cogs"></i> How is it used?</h3>
+                <ul>
+                    <li><i class="fas fa-route"></i> <strong>Tracking Across Platforms:</strong> Advertising companies use your fingerprint to follow your activity across websites.</li>
+                    <li><i class="fas fa-ad"></i> <strong>Personalized Ads:</strong> It helps in serving ads tailored to your browsing habits.</li>
+                    <li><i class="fas fa-shield-alt"></i> <strong>Fraud Prevention:</strong> Banks and services use it to detect unusual activity and prevent fraud.</li>
+                </ul>
+            </div>
+
+            <div class="info-card risk-section">
+                <h3><i class="fas fa-exclamation-triangle"></i> What are the risks?</h3>
+                <p>While digital fingerprints can improve your online experience, they can also be misused for:</p>
+                <ul>
+                    <li><i class="fas fa-user-secret"></i> Invasive tracking and profiling</li>
+                    <li><i class="fas fa-database"></i> Unethical data aggregation by third parties</li>
+                    <li><i class="fas fa-unlock"></i> Increased vulnerability to data breaches</li>
+                </ul>
+            </div>
+
+            <div class="info-card protection-section">
+                <h3><i class="fas fa-shield-alt"></i> How can you reduce the tracking?</h3>
+                <ul>
+                   <li>
+    <i class="fas fa-random"></i> 
+    Switch browsers or devices sometimes to vary your digital footprint
+</li>
+                    <li><i class="fas fa-eye-slash"></i> Enable <strong>Do Not Track</strong> in your browser settings</li>
+                 
+                    <li><i class="fas fa-globe"></i> Use privacy-focused browsers like <strong>Brave</strong> or <strong>Tor</strong></li>
+                    <li><i class="fas fa-broom"></i> Clear your cookies and cache regularly</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="info-footer">
+        <div class="footer-content">
+            <p>
+                Understanding your digital fingerprint is the first step to taking control of your online privacy.
+                By being aware of its uses and risks, you can make informed choices to protect your data.
+            </p>
+            <button class="btn-back">
+                <i class="fas fa-arrow-left"></i>[[ Back to Simulation|Fingerprint]]
+            </button>
+        </div>
+    </footer>
+</section>
+
+
+:: What will you do next? {"position":"438,775","size":"100,100"}
+[[Go Back|Laws]]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<section class="security-action">
+    <h2>Company Response & Compensation</h2>
+    <i class="fas fa-shield-alt"></i>
+    <div class="action-box">
+        <div class="action-header">
+
+            <h3>Company Update:</h3>
+        </div>
+        <div class="action-content">
+            <p class="action-title">Credit Card Information Compromise Confirmed</p>
+            <p class="action-description">Now that you've taken action, the company notifies you that your credit card information was indeed compromised. They are offering:</p>
+            <ul class="compensation-list">
+                <li><i class="fas fa-check"></i> Free year of credit monitoring</li>
+                <li><i class="fas fa-check"></i> Reimbursement of any fraudulent charges</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="real-world-box">
+        <div class="real-world-header">
+     		 <i class="fas fa-info-circle"></i>
+            <h3>In real life:</h3>
+        </div>
+        <p>Under laws like the <span class="highlight">GDPR</span>, consumers have the right to compensation if their data is breached. Companies are required to offer support and take immediate steps to mitigate the impact on their customers, including providing free credit monitoring or reimbursing fraudulent charges.</p>
+    </div>
+</section>
+
+<div class="button-container">
+			<button class="nav-btn"><a target="_blank" href="https://gdpr-info.eu/">Learn more about data protection laws</a></button>
+            <button class="nav-btn"><a target="_blank" href="https://oag.ca.gov/privacy/ccpa">Learn more about California data protection laws</a></button>
+                <button class="start-button">[[End]]</button>
+               </div>
+
+
+:: StoryStylesheet [stylesheet]
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/9/98/Labyrinth-W%C3%BCrfel_in_Blender-Cycles.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  color: white;
+}
+tw-passage{
+  width: 100%;
+}
+header {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-block: 2rem;
+    font-weight: 800;
+    padding: 1rem;
+  	line-height: 1.3;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    height: 100vh;
+    margin-inline: 4rem;
+    color: white;
+    gap: 1rem;
+}
+section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5rem;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+a {
+ 	text-decoration: none;
+  	color: white;
+}
+.btn-group a:hover {
+	color: #4CAF50;
+  	background: white;
+  	transition: 0.6s;
+  	padding: 0.2rem
+}
+.button-container a:hover {
+    color: #4CAF50;
+  	background: white;
+  	transition: 0.6s;
+  	padding: 0.2rem
+}
+button{
+  padding: 0.2rem 3rem;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  	margin-top: 1rem;
+  text-transform: uppercase;
+}
+.back-btn {
+    padding: 0.2rem 3rem;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  	margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.button-container {
+    display: flex;
+  	flex-direction: column;
+    justify-content: center;
+  align-items: center;
+    margin-top: 20px;
+  gap: 1rem;
+}
+.start-button {
+    padding: 1rem 2rem;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.start-button:hover {
+    background-color: #45a049;
+}
+
+.start-button:active {
+    transform: scale(0.95);
+}
+.btn-group{
+  	margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.risk{
+  color: red;
+}
+.text{
+  padding-top: 2rem;
+}
+.simulation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.simulation-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.simulation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.card-content i:not(.fa-play) {
+    font-size: 3rem;
+    color: #2196F3;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.simulation-card:hover .card-content i:not(.fa-play) {
+    transform: scale(1.1);
+}
+
+.card-content h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.start-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.start-btn:active {
+    transform: scale(0.95);
+}
+
+.start-btn i {
+    font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.simulation-card {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+.simulation-card:nth-child(1) { animation-delay: 0.1s; }
+.simulation-card:nth-child(2) { animation-delay: 0.2s; }
+.simulation-card:nth-child(3) { animation-delay: 0.3s; }
+@media (max-width: 768px) {
+    .simulation-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    
+    .card-content h2 {
+        font-size: 1.3rem;
+    }
+}
+.breach-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.scenario-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #4CAF50;
+}
+
+.real-life-info {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border-left: 4px solid #ff9800;
+}
+
+.breach-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #4CAF50;
+}
+
+.breach-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: #e0e0e0;
+}
+
+.highlight {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.scenario-box, .real-life-info {
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.security-action {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.action-box, .real-world-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    transition: transform 0.3s ease;
+}
+
+.action-box {
+    border-left: 4px solid #2196F3;
+}
+
+.real-world-box {
+    border-left: 4px solid #FF9800;
+}
+
+.action-box:hover, .real-world-box:hover {
+    transform: translateX(10px);
+}
+
+.action-header, .real-world-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.action-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2196F3;
+    margin-bottom: 0.5rem;
+}
+
+.highlight {
+    color: #FF9800;
+    font-weight: bold;
+}
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.security-action {
+    animation: fadeSlideIn 0.5s ease-out;
+}
+
+@media (max-width: 600px) {
+    .security-action {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .action-box, .real-world-box {
+        padding: 1rem;
+    }
+}
+.compensation-list {
+    list-style: none;
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+.compensation-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+
+.compensation-list li:hover {
+    transform: translateX(5px);
+}
+
+.compensation-list li {
+    animation: slideIn 0.3s ease-out forwards;
+    opacity: 0;
+}
+
+.compensation-list li:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.compensation-list li:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.conclusion {
+    position: relative;
+    overflow: hidden;
+}
+
+.conclusion::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2196F3, #4CAF50, #FF9800);
+    animation: shimmer 2s infinite linear;
+}
+
+.key-steps-list {
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.key-steps-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+.key-steps-list li:nth-child(1) { animation-delay: 0.2s; }
+.key-steps-list li:nth-child(2) { animation-delay: 0.4s; }
+.key-steps-list li:nth-child(3) { animation-delay: 0.6s; }
+
+.key-steps-list i {
+    color: #4CAF50;
+    font-size: 1.2rem;
+    padding-top: 0.2rem;
+}
+
+.thank-you {
+    text-align: center;
+    background: linear-gradient(145deg, rgba(33, 150, 243, 0.1), rgba(76, 175, 80, 0.1));
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you .fas.fa-award {
+    color: #FFD700;
+    font-size: 2rem;
+    animation: pulse 2s infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.fingerprint-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+.fas {
+    font-size: 1.5rem;
+}
+
+.fa-key {
+    color: #2196F3;
+}
+
+.fa-info-circle {
+    color: #FF9800;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-header i {
+    font-size: 2.5rem;
+    color: #2196F3;
+    animation: pulse 2s infinite;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #2196F3;
+}
+
+.info-box p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.fingerprint-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.generate-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+}
+
+.generate-btn:hover {
+    background-color: #1976D2;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
+}
+
+.generate-btn:active {
+    transform: translateY(0);
+}
+
+.generate-btn i {
+    font-size: 1.2rem;
+}
+
+.fingerprint-result {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.1rem;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.info-section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    color: white;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-header i {
+    font-size: 2.5rem;
+    color: #2196F3;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border-left: 4px solid #2196F3;
+}
+
+.highlight {
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-card h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #2196F3;
+    margin-bottom: 1rem;
+}
+
+.info-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-card li {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info-card li strong {
+  color: #4CAF50;
+}
+
+.info-card li:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.info-card i {
+    color: #4CAF50;
+    min-width: 20px;
+}
+
+.info-footer {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn-back {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem auto 0;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #1976D2;
+    transform: translateX(-5px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.info-card {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+.info-card:nth-child(1) { animation-delay: 0.1s; }
+.info-card:nth-child(2) { animation-delay: 0.2s; }
+.info-card:nth-child(3) { animation-delay: 0.3s; }
+
+@media (max-width: 768px) {
+    .info-section {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .section-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info-card {
+        padding: 1rem;
+    }
+}

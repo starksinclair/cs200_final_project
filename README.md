@@ -1,16 +1,35 @@
 # Digital Privacy Explorer
 
 ## Overview
-Digital Privacy Explorer is an interactive web-based project designed to educate users about the concept of digital fingerprints. The project introduces users to the concept of a "digital fingerprint," how it is created, how it is used for tracking, and steps they can take to protect their privacy online.
+Digital Privacy Explorer is an interactive web-based project designed to educate users about the concept of digital fingerprints. The project introduces users to the concept of a "digital fingerprint," how it is created, how it is used for tracking, privacy laws and which data is being collected during account creation.
 
 This project was built using Twine with the Snowman story format, integrating JavaScript, FingerprintJS for generating digital fingerprints, and custom CSS for styling.
 
 ---
 
 ## Features
-- **Interactive Fingerprint Simulation:** Users can generate a simulated digital fingerprint and learn how such identifiers are used.
-- **Educational Content:** A dedicated section explaining what a digital fingerprint is, its usage, and factors influencing it.
-- **Dynamic Navigation:** Includes back buttons and dynamic navigation support, overcoming challenges from changing the story format.
+
+### Interactive Simulations
+- **Account Creation Simulation**
+  - Hands-on experience with privacy choices during account setup
+  - Learn about data sharing implications
+  - Understand optional vs. necessary information sharing
+
+- **Digital Fingerprint Simulation**
+  - Generate and analyze your unique digital fingerprint
+  - Visualize how browsers and devices create identifying patterns
+  - Interactive demonstration of tracking mechanisms
+
+- **Privacy Laws Simulation**
+  - Explore real-world privacy regulations (GDPR, CCPA)
+  - Learn about user rights and company obligations
+  - Practice scenarios involving data breach responses
+
+### User Experience
+- **Intuitive Interface**
+  - Clean, modern design
+  - Easy navigation between modules
+  - Mobile-responsive layout
 
 ---
 
@@ -25,21 +44,25 @@ This project was built using Twine with the Snowman story format, integrating Ja
 ### Resources
 - [FingerprintJS Documentation](https://fingerprint.com)
 - FontAwesome for icons: [https://fontawesome.com](https://fontawesome.com)
-- CSS design inspiration: Tutorials and guides on modern web design principles.
-- Assistance with Twine navigation logic and transitions: AI-based guidance.
+- Javascript History API [https://developer.mozilla.org/en-US/docs/Web/API/History_API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
+- Assistance with Twine navigation logic and CSS: AI-based guidance.
+- Twine Cookbook [https://twinery.org/cookbook/](https://twinery.org/cookbook/)
+- Imgbb for free image hosting [https://imgbb.com/](https://imgbb.com/)
+- Wikimedia for free licensed images [https://upload.wikimedia.org/wikipedia/commons/9/98/Labyrinth-W%C3%BCrfel_in_Blender-Cycles.png](https://upload.wikimedia.org/wikipedia/commons/9/98/Labyrinth-W%C3%BCrfel_in_Blender-Cycles.png)
+- Dr Andrew Harris CS200 class
 
 ---
 
 ## Challenges
 1. **Story Format Transition:**
    - Originally created in the Harlowe format but transitioned to Snowman for greater JavaScript flexibility.
-   - Required implementing custom navigation and managing state between passages.
+   - Required implementing custom navigation.
 
 2. **Dynamic Back Navigation:**
-   - Snowman lacks built-in navigation controls, necessitating manual implementation of a history stack for back button functionality.
+   - Snowman lacks built-in navigation controls, so had to default to javascript `history.back()` founction which is the browser default navigation for going back or forward.
 
 3. **Fingerprint Generation:**
-   - Integrating FingerprintJS and managing asynchronous API calls within Twine's environment.
+   - Integrating FingerprintJS and managing  API calls within Twine's environment.
 
 ---
 
@@ -71,9 +94,10 @@ End function
 
 ## Attributions
 - **FingerprintJS**: For providing the digital fingerprint generation logic.
-- **AI Assistance**: Leveraged for pseudocode drafting and guidance on Twine navigation.
+- **AI Assistance**: Leveraged for guidance on Twine navigation and css designs.
 - **FontAwesome**: For icons enhancing the user interface.
 - **CSS Design Inspiration**: Utilized guides and tutorials for styling the project.
+- **Imgbb**: For free image hosting
 
 ---
 
@@ -83,7 +107,4 @@ End function
 - Expand educational content with quizzes or interactive Q&A.
 
 ---
-
-Enjoy exploring the world of digital privacy!
- change this to markdown code
 

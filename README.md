@@ -50,6 +50,7 @@ This project was built using Twine with the Snowman story format, integrating Ja
 - Imgbb for free image hosting [https://imgbb.com/](https://imgbb.com/)
 - Wikimedia for free licensed images [https://upload.wikimedia.org/wikipedia/commons/9/98/Labyrinth-W%C3%BCrfel_in_Blender-Cycles.png](https://upload.wikimedia.org/wikipedia/commons/9/98/Labyrinth-W%C3%BCrfel_in_Blender-Cycles.png)
 - Freesound [https://freesound.org/people/josefpres/sounds/771869/](https://freesound.org/people/josefpres/sounds/771869/)
+- Chrome Docs [https://developer.chrome.com/blog/autoplay/](https://developer.chrome.com/blog/autoplay/)
 - Dr Andrew Harris CS200 class
 
 ---

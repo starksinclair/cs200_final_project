@@ -9,14 +9,26 @@
 		</style>
 	</head>
 	<body>
-        <audio id="audio" src="https://starksinclair.github.io/cs200_final_project/assets/771869__josefpres__piano-loops-167-efect-2-octave-long-loop-120-bpm.wav" autoplay loop></audio>
-<script>
-  window.onload = function() {
-    const audio = document.getElementById("audio");
-    audio.play();
-  }
-</script>
-
+      
+        <audio id="audio" src="https://starksinclair.github.io/cs200_final_project/assets/771869__josefpres__piano-loops-167-efect-2-octave-long-loop-120-bpm.wav" loop></audio>
+        <button id="playButton" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; padding: 10px; border-radius: 50%; background: rgba(0,0,0,0.5); border: none; cursor: pointer;">
+            <i class="fas fa-volume-up" style="color: white; font-size: 20px;"></i>
+        </button>
+    
+        <script>
+            const audio = document.getElementById("audio");
+            const playButton = document.getElementById("playButton");
+            
+            playButton.addEventListener('click', function() {
+                if (audio.paused) {
+                    audio.play();
+                    this.innerHTML = '<i class="fas fa-volume-up" style="color: white; font-size: 20px;"></i>';
+                } else {
+                    audio.pause();
+                    this.innerHTML = '<i class="fas fa-volume-mute" style="color: white; font-size: 20px;"></i>';
+                }
+            });
+        </script>
        <!-- <audio src="./assets/771869__josefpres__piano-loops-167-efect-2-octave-long-loop-120-bpm.wav" autoplay loop ></audio> -->
 		<tw-story tags></tw-story>
 		<tw-storydata name="test" startnode="1" creator="Twine" creator-version="2.10.0" format="Snowman" format-version="2.0.2" ifid="5A36C727-CF1D-46DA-BE9E-2ABE9A4B8F79" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">* {

@@ -1,4 +1,4 @@
-# Digital Privacy Explorer
+# Digital Privacy Museum
 
 ## Overview
 Digital Privacy Explorer is an interactive web-based project designed to educate users about the concept of digital fingerprints. The project introduces users to the concept of a "digital fingerprint," how it is created, how it is used for tracking, privacy laws and which data is being collected during account creation.

@@ -49,6 +49,7 @@ This project was built using Twine with the Snowman story format, integrating Ja
 - Twine Cookbook [https://twinery.org/cookbook/](https://twinery.org/cookbook/)
 - Imgbb for free image hosting [https://imgbb.com/](https://imgbb.com/)
 - Wikimedia for free licensed images [https://upload.wikimedia.org/wikipedia/commons/9/98/Labyrinth-W%C3%BCrfel_in_Blender-Cycles.png](https://upload.wikimedia.org/wikipedia/commons/9/98/Labyrinth-W%C3%BCrfel_in_Blender-Cycles.png)
+- Freesound [https://freesound.org/people/josefpres/sounds/771869/](https://freesound.org/people/josefpres/sounds/771869/)
 - Dr Andrew Harris CS200 class
 
 ---
@@ -63,6 +64,9 @@ This project was built using Twine with the Snowman story format, integrating Ja
 
 3. **Fingerprint Generation:**
    - Integrating FingerprintJS and managing  API calls within Twine's environment.
+     
+4. **Audio Autoplay Implementation:**
+   - Modern browsers block automatic audio playback due to user experience policies. so I had to implement a custom play/pause button to comply with browser security features.
 
 ---
 
